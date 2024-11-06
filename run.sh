@@ -1,4 +1,4 @@
-git pull
+git pull --depth 1
 cp /auto_rss/model_config/model-config.toml /auto_rss/config/.
 python3 run.py &
 sleep 30s
