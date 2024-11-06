@@ -5,3 +5,6 @@
 /.idea/vcs.xml
 /.idea/workspace.xml
 git_push.exp
+/config/
+/database/
+/log/
