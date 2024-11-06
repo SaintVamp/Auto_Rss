@@ -19,6 +19,7 @@
         "reg_type": "white",
         "reg_word": [
           "-UBits",
+          "-UBWEB",
           "@UBits"
         ],
         "reg_method": "or"
