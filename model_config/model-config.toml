@@ -116,7 +116,6 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "ubits.club" = 40
 "reelflix.xyz" = 40
 "filelist.io" = 40
-"www.torrentleech.cc" = 40
 
 [rss.seed_size_more_GB]                             #只R体积大于此值的种子，两者控制范围，默认为20GB，2者大小填错会自动适应，填0则无限制#本模块修改不用重启
 "audiences.me" = 20
@@ -131,7 +130,6 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "ubits.club" = 20
 "reelflix.xyz" = 20
 "filelist.io" = 20
-"www.torrentleech.cc" = 20
 
 [rss.is_used]                                       #站点RSS开关，启用修改为true，关闭修改为false#本模块修改不用重启
 "audiences.me" = false
@@ -146,7 +144,6 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "ubits.club" = false
 "reelflix.xyz" = false
 "filelist.io" = false
-"www.torrentleech.cc" = false
 
 [rss.url]                                           #站点RSS的链接，请从网站RSS生成链接里找passkey后，自行补充在最后的等于号后，注意前面的别动。如果想要自己生成RSS链接则必须选中【[标题格式]中的[类型]和[大小]】#本模块修改不用重启
 "audiences.me" = "https://audiences.me/torrentrss.php?rows=50&tags=gf&icat=1&isize=1&torrent_type=1&linktype=dl&rsskey="
@@ -161,7 +158,6 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "ubits.club" = "https://ubits.club/torrentrss.php?rows=50&icat=1&isize=1&linktype=dl&passkey="
 "reelflix.xyz" = "https://reelflix.xyz/rss/"
 "filelist.io" = "https://filelist.io/rss.php?feed=dl&cat=24,11,15,18,16,25,6,26,20,2,3,4,19,1,27,21,23,13&passkey="
-"www.torrentleech.org" = "https://rss.torrentleech.org/your_key"
 
 [qiyeweixin]                                        #配置企业微信推送信息相关内容
 is_used = false                                     #是否启用企业微信通知功能。默认关闭
