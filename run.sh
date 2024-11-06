@@ -1,0 +1,15 @@
+git pull
+chmod 755 ffmpeg
+cp /auto_rss/model_base_config/model-config.toml /auto_rss/base_config/.
+python3 run.py &
+sleep 30s
+while true; do
+  if [ -f /auto_rss/upgrade ]; then
+    git pull
+    cp /auto_rss/model_base_config/model-config.toml /auto_rss/base_config/.
+    ps | grep "python3 run.py" | grep -v grep | awk '{print $1}' | xargs kill -9
+    python3 run.py &
+    rm /auto_rss/upgrade
+  fi
+  sleep 5m
+done

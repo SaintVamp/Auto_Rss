@@ -1,0 +1,36 @@
+{
+  "torrent_detail": {
+    "title": "SVJS-h1#top",
+    "sub_title": "SVJS-td#outer>table[cellspacing]>tr",
+    "quote": "SVJS-fieldset>font",
+    "imdb_link": "SVJSURL-a.faqlink[href*='https://www.imdb.com/title']",
+    "douban_link": "SVJSURL-a.faqlink[href*='douban.com/subject/']",
+    "tags": "SVJSTAG-td[valign=\"top\"]>span.tags",
+    "screenshots": "SVJSSS-div#kdescr img",
+    "torrent_link": "SVJSURL-a[href*='hdhome.org/download.php']"
+  },
+  "upload": {},
+  "download": {
+    "site_frame":"NexusPHP",
+    "reg_group": [
+      {
+        "reg_type": "white",
+        "reg_word": [
+          "-HDH",
+          "-HDHTV",
+          "@HDHome"
+        ],
+        "reg_method": "or"
+      }
+    ],
+    "isStart": true,
+    "free_flag": [
+      "font.free",
+      "font.twoupfree"
+    ],
+    "forbid": "td[valign='top']>span.tags.tjz",
+    "limit": "td[valign='top']>span.tags.txz",
+    "HR_flag": "no.judge.hr",
+    "charge_flag": "no.judge.charge"
+  }
+}

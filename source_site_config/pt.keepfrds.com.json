@@ -1,0 +1,34 @@
+{
+  "torrent_detail": {
+    "sub_title": "SVJS-h1#top",
+    "title": "SVJS-table#tdetail>tr",
+    "quote": "SVJS-div#kdescr fieldset",
+    "imdb_link": "SVJSURL-div#kimdb a.imdbwp__link",
+    "douban_link": "SVJSURL-div#kdouban a.imdbwp__link",
+    "tags": "SVJSTAG-td[valign=\"top\"]>span[title]",
+    "screenshots": "SVJSSS-fieldset>a|img[loading=\"lazy\"]",
+    "torrent_link": "SVJSLINK-input#download_link"
+  },
+  "upload": {},
+  "download": {
+    "site_frame":"NexusPHP",
+    "reg_group": [
+      {
+        "reg_type": "white",
+        "reg_word": [
+          "FRDS"
+        ],
+        "reg_method": "or"
+      }
+    ],
+    "isStart": true,
+    "free_flag": [
+      "font.free",
+      "font.twoupfree"
+    ],
+    "forbid": "td[valign=\"top\"]>span[title=\"本资源禁止转载到其他网站\"]",
+    "limit": "td[valign=\"top\"]>span[title=\"本资源在7天之内禁止转载到其他网站\"]",
+    "HR_flag": "no.judge.hr",
+    "charge_flag": "no.judge.charge"
+  }
+}

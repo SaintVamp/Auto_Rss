@@ -1,0 +1,31 @@
+{
+  "torrent_detail": {
+    "title": "SVJS-h1.torrent__name",
+    "source_type": "SVJS-ul.torrent__tags a.torrent__category-link",
+    "source_medium": "SVJS-ul.torrent__tags a.torrent__type-link",
+    "source_resolution_ratio":"SVJS-ul.torrent__tags a.torrent__resolution-link",
+    "imdb_link":"SVJSURL-ul.meta__ids>LI.meta__imdb>a.meta-id-tag",
+    "screenshots": "SVJSSS-div.bbcode-rendered__center>a>img"
+  },
+  "upload": {},
+  "download": {
+    "site_frame":"UNIT3D",
+    "reg_group": [
+      {
+        "reg_type": "white",
+        "reg_word": [
+          ""
+        ],
+        "reg_method": "or"
+      }
+    ],
+    "isStart": true,
+    "free_flag": [
+      "i.torrent-icons__freeleech"
+    ],
+    "forbid": "no.judge.forbid",
+    "limit": "no.judge.limit",
+    "HR_flag": "no.judge.hr",
+    "charge_flag": "no.judge.charge"
+  }
+}
