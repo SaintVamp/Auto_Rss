@@ -8,3 +8,4 @@ git_push.exp
 /config/
 /database/
 /log/
+upgrade
