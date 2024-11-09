@@ -1,62 +1,10 @@
 port = 45678                                        #工具使用的通信端口
-authorize_code = "1C80009CC32A9A921675770B3EE19ABC" #鉴权识别码，该码会动态增加已支持单站点
-annotations = "By ATU_Tool"                         #填写期望在副标题最后添加的说明内容，可自行修改
 douban_ck = ""                                      #非必填，当无法查询出豆瓣编号时，可以尝试增加自己的豆瓣CK查询
 ptgen = "https://ptgen.ptvicomo.net/"               #PTGEN地址，目前有【https://ptgen.agsvpt.work/，https://ptgen.ptvicomo.net/，https://api.iyuu.cn/App.Movie.Ptgen/】可选，也可以自己添加，有问题反馈
 is_debug = false                                    #debug日志开关，修改后需要重启容器【默认关闭】
 time_to_rss = 10                                    #每N分钟执行一次自动RSS种子【单位是分钟：0-59】,不建议过快，防止站点限制
-time_to_upload = 5                                  #每N分钟执行一次扫描发种【单位是分钟：0-59】
-time_to_delete = true                               #是否开启自动删除N小时前种子的功能【默认开启】，目的释放硬盘空间
-time_to_delete_interval=24                          #默认删除间隔为24小时，请自行输入整小时输
-time_to_delete_time = 30                            #从0点开始每N分钟执行一次自动删种【单位是分钟：0-59】
-time_to_stop = true                                 #是否开启自动限速做种数N人以上种子的功能【默认开启】，目的释放上行带宽
-time_to_stop_uper = 4                               #自动限速做种数人数大于配置值的
-time_to_stop_time = 30                              #从0点开始每N分钟执行一次自动限速【单位是分钟：0-59】
-time_to_stop_torrent = false                        #限速后同时暂停做种
-time_to_stop_delete = false                         #是否开启检测源种和发布种均大于自动停止做种数，大于立刻删除种子，目的释放硬盘空间
-move_source_time = 10                               #从0点开始每N分钟执行一次限速后转移【单位是分钟：0-59】
-move_source_speed = 50                              #判断上传速度小于N后进行转移【单位是KB】
-move_source_flag = false                            #是否开启限速后移动到新路径功能【默认关闭】，目的从SSD移动到HDD存储。
-move_source_path = "/downloads/"                    #期望移动到的新路径，此路径必须是QB可读取的路径
 http_porxy = "http://ip:port"                       #代理，用于访问无法连接的RSS
-
-[qb_server]                                         #QB相关设置，强烈建议QB使用4.6.0版本，过高版本接口调不通
-url = "http://127.0.0.1"                            #QB的webui地址，docker部署方式可直接默认
-port = 8080                                         #QB的webui端口，docker部署方式可直接默认
-user = "admin"                                      #QB的webui用户名
-password = ""                                       #QB的webui密码
-verify = false                                      #QB本地部署默认false
-down_queue = 3                                      #建议和QB设置的同时下载数一致
-download_path = "/downloads/"                       #QB中的点设置-下载标签中的默认下载地址栏的内容，也可以自己写QB可读取的任意地址
-tags = "Auto Upload"                                #QB中的标签名称
-skip_checking = false                               #QB中是否跳过校验
-
-[domain]                                            #当网站有备用域名时，自行修改域名映射
-"www.agsvpt.com" = "www.agsvpt.com"
-"ptvicomo.net" = "ptvicomo.net"
-"ubits.club" = "ubits.club"
-"www.hdkyl.in" = "www.hdkyl.in"
-"carpt.net" = "carpt.net"
-"ptlgs.org" = "ptlgs.org"
-"zmpt.cc" = "zmpt.cc"
-"raingfh.top" = "raingfh.top"
-"leaves.red" = "leaves.red"
-"lemonhd.club" = "lemonhd.club"
-"njtupt.top" = "njtupt.top"
-"www.qingwapt.com" = "www.qingwapt.com"
-
-[userid]                                            #目标站的uid用引号包围，一般在个人详情页面中能够查看到，不配置则不会向该站发布
-"www.agsvpt.com" = ""
-"ptvicomo.net" = ""
-"ubits.club" = ""
-"www.hdkyl.in" = ""
-"carpt.net" = ""
-"ptlgs.org" = ""
-"zmpt.cc" = ""
-"raingfh.top" = ""
-"leaves.red" = ""
-"lemonhd.club" = ""
-"njtupt.top" = ""
+queue_num = 20                                      #种子缓存队列长度
 
 [cookies]                                           #源站和目标站的cookies信息，可在浏览器命令行输入document.cookie打印后直接复制放入。
 "www.agsvpt.com" = ""
@@ -80,21 +28,6 @@ skip_checking = false                               #QB中是否跳过校验
 "lemonhd.club" = ""
 "filelist.io" = ""
 "njtupt.top" = ""
-
-[image_bed]
-bed_use = ""                                        #图床使用开关，agsvpt|smms|ptdream|pixhost，N选一填入
-
-[image_bed.token]                                   #图床的认证token，建议对免费公共图床建多个账号获取token，防止上传超限。
-agsvpt = ["", "", ""]                               #如果只有一个token：agsv=['1']
-smms = ["", "", ""]                                 #如果有多个token：agsv=['1','2']，agsv=['1','2','3','4']
-ptdream = ["", "", ""]                              #每个图床都可以如此设置
-pixhost = [""]                                      #pixhost图床留空即可
-
-[image_bed.image_bed_email]                         #图床登录账号
-agsvpt = ""
-
-[image_bed.image_bed_pw]                            #图床登录密码
-agsvpt = ""
 
 [rss]                                               #本模块修改不用重启
 free_check = true                                   #RSS时是否检测种子免费状态，默认true进行检测。
