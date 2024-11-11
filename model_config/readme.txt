@@ -6,13 +6,10 @@
 二、创建容器：【docker run -d --network host \
 --name=auto_rss \
 -e TZ=Asia/Shanghai \
--v /{父目录地址}/atu_release/bdinfo:/auto_rss/bdinfo \
--v /{父目录地址}/atu_release/log:/auto_rss/log \
--v /{父目录地址}/atu_release/config:/auto_rss/config \
--v /{父目录地址}/atu_release/database:/auto_rss/database \
--v /{父目录地址}/atu_release/picture:/auto_rss/picture \
--v /{父目录地址}/{资源存放地址}:/downloads \
-saintvamp/auto_rss:latest】
+-v /{父目录地址}/auto_rss/log:/auto_rss/log \
+-v /{父目录地址}/auto_rss/config:/auto_rss/config \
+-v /{父目录地址}/auto_rss/database:/auto_rss/database \
+saintvamp/auto_rss:1.0】
 #自行修改-v中冒号前的文件夹地址后，执行一次，此时程序未运行，只是生成容器。
 三、修改base_config中config.toml中的内容。
 四、源站点选择RSS，直接生成，查询对应的passkey字段
