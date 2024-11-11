@@ -5,6 +5,7 @@ is_debug = false                                    #debug日志开关，修改�
 time_to_rss = 10                                    #每N分钟执行一次自动RSS种子【单位是分钟：0-59】,不建议过快，防止站点限制
 http_porxy = "http://ip:port"                       #代理，用于访问无法连接的RSS
 queue_num = 20                                      #种子缓存队列长度
+send_num = 2                                        #单次请求返回种子信息的条数
 
 [cookies]                                           #源站和目标站的cookies信息，可在浏览器命令行输入document.cookie打印后直接复制放入。
 "audiences.me" = ""

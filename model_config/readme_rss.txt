@@ -28,7 +28,7 @@ qbittorrentofficial/qbittorrent-nox:4.6.0-1】
 
 
 Q&A：
-Q1：base_config里的model-config.toml是干什么的？
+Q1：config里的model-config.toml是干什么的？
 A1：这个是最全的配置文件模版。在第一次创建容器后，需要复制model-config.toml一份并改名为config.toml，然后配置config中的必备信息。
 另外每次更新model后，重启时程序会自动更新model-config.toml，并将config.toml缺少的配置项补全，但仍需要人工配置此类配置项的值。
 

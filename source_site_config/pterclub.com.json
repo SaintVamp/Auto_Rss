@@ -4,7 +4,7 @@
     "sub_title": "SVJS-td#outer>table[width] tr",
     "quote": "SVJS-div#kdescr>fieldset",
     "tags": "SVJSTAG-a.chs_tag.details-tag",
-    "screenshots": "SVJSSS-img[src*='img.pterclub']:not([class='round_icon'])"
+    "screenshots": "SVJSSS-div#kdescr img"
   },
   "upload": {},
   "download": {
