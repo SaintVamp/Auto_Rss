@@ -7,27 +7,18 @@ http_porxy = "http://ip:port"                       #代理，用于访问无法
 queue_num = 20                                      #种子缓存队列长度
 
 [cookies]                                           #源站和目标站的cookies信息，可在浏览器命令行输入document.cookie打印后直接复制放入。
-"www.agsvpt.com" = ""
 "audiences.me" = ""
 "springsunday.net" = ""
 "hhanclub.top" = ""
-"ptvicomo.net" = ""
 "ubits.club" = ""
 "hdhome.org" = ""
 "www.hddolby.com" = ""
 "hdvideo.one" = ""
 "pterclub.com" = ""
 "pt.keepfrds.com" = ""
-"www.hdkyl.in" = ""
-"carpt.net" = ""
-"ptlgs.org" = ""
 "zmpt.cc" = ""
-"raingfh.top" = ""
-"leaves.red" = ""
 "reelflix.xyz" = ""
-"lemonhd.club" = ""
 "filelist.io" = ""
-"njtupt.top" = ""
 
 [rss]                                               #本模块修改不用重启
 free_check = true                                   #RSS时是否检测种子免费状态，默认true进行检测。
