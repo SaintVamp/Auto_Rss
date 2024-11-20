@@ -29,8 +29,5 @@
     "limit": "no.judge.limit",
     "HR_flag": "no.judge.hr",
     "charge_flag": "no.judge.charge"
-  },
-  "upload": {
-    "upload_url": "https://zmpt.cc/getusertorrentlistajax.php?type=uploaded&userid="
   }
 }

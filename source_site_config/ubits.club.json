@@ -9,9 +9,6 @@
     "screenshots": "SVJSSS-div#kdescr img[src*='img.ubits']",
     "torrent_link": "SVJSURL-a[title=\"可在BT客户端使用，当天有效。\"]"
   },
-  "upload": {
-    "upload_url": "https://ubits.club/getusertorrentlistajax.php?type=uploaded&userid="
-  },
   "download": {
     "site_frame": "NexusPHP",
     "reg_group": [

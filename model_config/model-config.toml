@@ -1,4 +1,4 @@
-port = 45678                                        #工具使用的通信端口
+port = 56789                                        #工具使用的通信端口
 douban_ck = ""                                      #非必填，当无法查询出豆瓣编号时，可以尝试增加自己的豆瓣CK查询
 ptgen = "https://ptgen.ptvicomo.net/"               #PTGEN地址，目前有【https://ptgen.agsvpt.work/，https://ptgen.ptvicomo.net/，https://api.iyuu.cn/App.Movie.Ptgen/】可选，也可以自己添加，有问题反馈
 is_debug = false                                    #debug日志开关，修改后需要重启容器【默认关闭】
