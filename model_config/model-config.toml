@@ -1,4 +1,5 @@
 port = 56789                                        #工具使用的通信端口
+authorize_code = ""                                 #鉴权识别码
 douban_ck = ""                                      #非必填，当无法查询出豆瓣编号时，可以尝试增加自己的豆瓣CK查询
 ptgen = "https://ptgen.ptvicomo.net/"               #PTGEN地址，目前有【https://ptgen.agsvpt.work/，https://ptgen.ptvicomo.net/，https://api.iyuu.cn/App.Movie.Ptgen/】可选，也可以自己添加，有问题反馈
 is_debug = false                                    #debug日志开关，修改后需要重启容器【默认关闭】
@@ -21,6 +22,7 @@ num_per_turn = 2                                    #每轮RSS从单个站最多
 "zmpt.cc" = ""
 "reelflix.xyz" = ""
 "filelist.io" = ""
+"ourbits.club" = ""
 
 [rss]                                               #本模块修改不用重启
 free_check = true                                   #RSS时是否检测种子免费状态，默认true进行检测。
@@ -42,6 +44,7 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "ubits.club" = 40
 "reelflix.xyz" = 40
 "filelist.io" = 40
+"ourbits.club" = 40
 
 [rss.seed_size_more_GB]                             #只R体积大于此值的种子，两者控制范围，默认为20GB，2者大小填错会自动适应，填0则无限制#本模块修改不用重启
 "audiences.me" = 20
@@ -56,6 +59,7 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "ubits.club" = 20
 "reelflix.xyz" = 20
 "filelist.io" = 20
+"ourbits.club" = 20
 
 [rss.is_used]                                       #站点RSS开关，启用修改为true，关闭修改为false#本模块修改不用重启
 "audiences.me" = false
@@ -70,6 +74,7 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "ubits.club" = false
 "reelflix.xyz" = false
 "filelist.io" = false
+"ourbits.club" = false
 
 [rss.url]                                           #站点RSS的链接，请从网站RSS生成链接里找passkey后，自行补充在最后的等于号后，注意前面的别动。如果想要自己生成RSS链接则必须选中【[标题格式]中的[类型]和[大小]】#本模块修改不用重启
 "audiences.me" = "https://audiences.me/torrentrss.php?rows=50&tags=gf&icat=1&isize=1&torrent_type=1&linktype=dl&rsskey="
@@ -84,6 +89,7 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "ubits.club" = "https://ubits.club/torrentrss.php?rows=50&icat=1&isize=1&linktype=dl&passkey="
 "reelflix.xyz" = "https://reelflix.xyz/rss/"
 "filelist.io" = "https://filelist.io/rss.php?feed=dl&cat=24,11,15,18,16,25,6,26,20,2,3,4,19,1,27,21,23,13&passkey="
+"ourbits.club" = "https://ourbits.club/torrentrss.php?inclbookmarked=0&https=1&icat=1&isize=1&rows=10&search_mode=0&linktype=dl&passkey="
 
 [qiyeweixin]                                        #配置企业微信推送信息相关内容
 is_used = false                                     #是否启用企业微信通知功能。默认关闭
