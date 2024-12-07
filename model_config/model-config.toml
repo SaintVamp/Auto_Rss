@@ -23,6 +23,7 @@ num_per_turn = 2                                    #每轮RSS从单个站最多
 "reelflix.xyz" = ""
 "filelist.io" = ""
 "ourbits.club" = ""
+"sunnypt.top" = ""
 
 [rss]                                               #本模块修改不用重启
 free_check = true                                   #RSS时是否检测种子免费状态，默认true进行检测。
@@ -45,21 +46,23 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "reelflix.xyz" = 40
 "filelist.io" = 40
 "ourbits.club" = 40
+"sunnypt.top" = 40
 
 [rss.seed_size_more_GB]                             #只R体积大于此值的种子，两者控制范围，默认为20GB，2者大小填错会自动适应，填0则无限制#本模块修改不用重启
-"audiences.me" = 20
-"springsunday.net" = 20
-"hhanclub.top" = 20
-"hdhome.org" = 20
-"www.hddolby.com" = 20
-"hdvideo.one" = 20
-"pt.keepfrds.com" = 20
-"pterclub.com" = 20
-"zmpt.cc" = 20
-"ubits.club" = 20
-"reelflix.xyz" = 20
-"filelist.io" = 20
-"ourbits.club" = 20
+"audiences.me" = 0
+"springsunday.net" = 0
+"hhanclub.top" = 0
+"hdhome.org" = 0
+"www.hddolby.com" = 0
+"hdvideo.one" = 0
+"pt.keepfrds.com" = 0
+"pterclub.com" = 0
+"zmpt.cc" = 0
+"ubits.club" = 0
+"reelflix.xyz" = 0
+"filelist.io" = 0
+"ourbits.club" = 0
+"sunnypt.top" = 0
 
 [rss.is_used]                                       #站点RSS开关，启用修改为true，关闭修改为false#本模块修改不用重启
 "audiences.me" = false
@@ -75,6 +78,7 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "reelflix.xyz" = false
 "filelist.io" = false
 "ourbits.club" = false
+"sunnypt.top" = false
 
 [rss.url]                                           #站点RSS的链接，请从网站RSS生成链接里找passkey后，自行补充在最后的等于号后，注意前面的别动。如果想要自己生成RSS链接则必须选中【[标题格式]中的[类型]和[大小]】#本模块修改不用重启
 "audiences.me" = "https://audiences.me/torrentrss.php?rows=50&tags=gf&icat=1&isize=1&torrent_type=1&linktype=dl&rsskey="
@@ -90,6 +94,7 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "reelflix.xyz" = "https://reelflix.xyz/rss/"
 "filelist.io" = "https://filelist.io/rss.php?feed=dl&cat=24,11,15,18,16,25,6,26,20,2,3,4,19,1,27,21,23,13&passkey="
 "ourbits.club" = "https://ourbits.club/torrentrss.php?inclbookmarked=0&https=1&icat=1&isize=1&rows=10&search_mode=0&linktype=dl&passkey="
+"sunnypt.top" = "https://sunnypt.top/torrentrss.php?rows=50&icat=1&isize=1&linktype=dl&passkey="
 
 [qiyeweixin]                                        #配置企业微信推送信息相关内容
 is_used = false                                     #是否启用企业微信通知功能。默认关闭
