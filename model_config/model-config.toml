@@ -96,6 +96,7 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "filelist.io" = "https://filelist.io/rss.php?feed=dl&cat=24,11,15,18,16,25,6,26,20,2,3,4,19,1,27,21,23,13&passkey="
 "ourbits.club" = "https://ourbits.club/torrentrss.php?inclbookmarked=0&https=1&icat=1&isize=1&rows=10&search_mode=0&linktype=dl&passkey="
 "sunnypt.top" = "https://sunnypt.top/torrentrss.php?rows=50&icat=1&isize=1&linktype=dl&passkey="
+"model_site" = ["rss_url1", "rss_url2"]
 
 [qiyeweixin]                                        #配置企业微信推送信息相关内容
 is_used = false                                     #是否启用企业微信通知功能。默认关闭
