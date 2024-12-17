@@ -4,6 +4,7 @@ douban_ck = ""                                      #非必填，当无法查询
 ptgen = "https://ptgen.ptvicomo.net/"               #PTGEN地址，目前有【https://ptgen.agsvpt.work/，https://ptgen.ptvicomo.net/，https://api.iyuu.cn/App.Movie.Ptgen/】可选，也可以自己添加，有问题反馈
 is_debug = false                                    #debug日志开关，修改后需要重启容器【默认关闭】
 time_to_rss = 10                                    #每N分钟执行一次自动RSS种子【单位是分钟：0-59】,不建议过快，防止站点限制
+time_to_rss_list = 10                               #数组类RSS链接间等待N分钟，最小时间5分钟。
 http_porxy = "http://ip:port"                       #代理，用于访问无法连接的RSS
 queue_num = 20                                      #种子缓存队列长度
 send_num = 2                                        #单次请求返回种子信息的条数
