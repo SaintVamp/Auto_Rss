@@ -31,20 +31,26 @@ A3：从你想要发布的网站选择RSS后生成的链接中【是生成的链
 
 API说明：
 PS:如果是curl命令要把调用方法整体引号引起，浏览器则无影响。
-如：curl "http://127.0.0.1:45678/sv/rss/api/checkDetail?url=https://audiences.me/details.php?id=306417"
+如：curl "http://127.0.0.1:56789/sv/rss/api/checkDetail?url=https://audiences.me/details.php?id=306417"
 
 1.验证页面详情接口：checkDetail
 功能：检查页面解析内容是否正常，主要修复BUG用
-调用方法：http://127.0.0.1:45678/sv/rss/api/checkDetail?url={源站种子详情页}
+调用方法：http://127.0.0.1:56789/sv/rss/api/checkDetail?url={源站种子详情页}
 源站种子详情页：https://audiences.me/details.php?id=306417
 
 2.获取源种存储信息接口：getHashInfo
 功能：查看源种存储内容是否正确，主要修复BUG用
-调用方法：http://127.0.0.1:45678/sv/rss/api/getHashInfo?h={QB种子信息中的信息哈希值}
+调用方法：http://127.0.0.1:56789/sv/rss/api/getHashInfo?h={QB种子信息中的信息哈希值}
 
 3.手工新增源站种子接口：addByUrl
 功能：人工增加RSS队列中的种子资源，供DTU下载使用
-调用方法：http://127.0.0.1:45678/sv/rss/api/addByUrl?h={QB种子信息中的信息哈希值}&url={源站种子详情页}&hr={源网站此种子的HR标记}&sf={站点架构}
+调用方法：http://127.0.0.1:56789/sv/rss/api/addByUrl?h={QB种子信息中的信息哈希值}&url={源站种子详情页}&hr={源网站此种子的HR标记}&sf={站点架构}
 源站种子详情页：https://audiences.me/details.php?id=306417
 源网站此种子的HR标记：有标记写1，没标记写0
 站点架构：目前支持两类，选一个填写：np|u3d
+
+3.手工删除报错种子接口：delByUrl、delByHash
+功能：人工增加RSS队列中的种子资源，供DTU下载使用
+调用方法：http://127.0.0.1:56789/sv/rss/api/delByUrl?u={源站种子详情页}
+调用方法：http://127.0.0.1:56789/sv/rss/api/delByHash?h={QB种子信息中的信息哈希值}
+源站种子详情页：https://audiences.me/details.php?id=306417
