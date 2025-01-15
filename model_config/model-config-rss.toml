@@ -34,7 +34,7 @@ hr_check = true                                     #RSS时是否检测种子的
 up_speed_limit = 50                                 #RSS时对源站下载种子进行上传速度限制，单位MB，定义与QB中的MB一样。
 quick_scan = false                                  #RSS时快速轮循所有种子，建议执行完一次就改回false。
 
-[rss.seed_size_less_GB]                             #只R体积小于此值的种子，两者控制范围，默认为40GB，2者大小填错会自动适应，填0则无限制#本模块修改不用重启
+[rss.seed_size_less_GB]                             #只R体积小于此值的种子，两者控制范围，默认为40GB，2者大小填错会自动适应，上下限都填0则无限制#本模块修改不用重启
 "audiences.me" = 40
 "springsunday.net" = 40
 "hhanclub.top" = 40
@@ -50,7 +50,7 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "ourbits.club" = 40
 "sunnypt.top" = 40
 
-[rss.seed_size_more_GB]                             #只R体积大于此值的种子，两者控制范围，默认为20GB，2者大小填错会自动适应，填0则无限制#本模块修改不用重启
+[rss.seed_size_more_GB]                             #只R体积大于此值的种子，两者控制范围，默认为20GB，2者大小填错会自动适应，上下限都填0则无限制#本模块修改不用重启
 "audiences.me" = 0
 "springsunday.net" = 0
 "hhanclub.top" = 0
