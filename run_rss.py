@@ -1,8 +1,8 @@
 from atut_serv import start_serv
 from util.svlog import logs
 
-ver = "2025-02-07 11:21:18"
-ts = 1738898478
+ver = "2025-02-07 14:34:51"
+ts = 1738910091
 if __name__ == '__main__':
     logs.logger.info(f'RSS总控主程序启动，V1.0.1 ver={ver}')
     start_serv(ts)

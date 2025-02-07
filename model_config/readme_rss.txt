@@ -59,3 +59,7 @@ PS:如果是curl命令要把调用方法整体引号引起，浏览器则无影�
 新增接口调用方法：http://127.0.0.1:56789/sv/rss/api/addDoubanM，post传json数据{"douban":"链接","imdb":"链接","name":"中文名"}
 查询接口调用方法：http://127.0.0.1:56789/sv/rss/api/selDouban?d={豆瓣或IMDB链接}
 删除接口调用方法：http://127.0.0.1:56789/sv/rss/api/delDouban，post传json数据{"douban":"链接","imdb":"链接"}
+
+5.查询待发布资源的名称和PTGEN对应情况接口：getNearlyInfo
+调用方法：http://127.0.0.1:56789/sv/rss/api/getNearlyInfo?t={指定的时间范围}
+指定的时间范围：填任意数字，单位小时
