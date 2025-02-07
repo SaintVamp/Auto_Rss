@@ -63,3 +63,6 @@ PS:如果是curl命令要把调用方法整体引号引起，浏览器则无影�
 5.查询待发布资源的名称和PTGEN对应情况接口：getNearlyInfo
 调用方法：http://127.0.0.1:56789/sv/rss/api/getNearlyInfo?t={指定的时间范围}
 指定的时间范围：填任意数字，单位小时
+
+6.强制更新待发布资源的PTGEN信息接口：forceUpdateIntro
+调用方法：http://127.0.0.1:56789/sv/rss/api/forceUpdateIntro?h={QB种子信息中的信息哈希值}
