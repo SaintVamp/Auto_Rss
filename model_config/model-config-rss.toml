@@ -31,6 +31,7 @@ descr_loacl = ""                                    #RSS本地存储豆瓣简介
 "www.qingwapt.com" = ""
 "lemonhd.club" = ""
 "pt.xingyungept.org" = ""
+"cspt.top" = ""
 
 [rss]                                               #本模块修改不用重启
 free_check = true                                   #RSS时是否检测种子免费状态，默认true进行检测。
@@ -58,6 +59,7 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "www.qingwapt.com" = 40
 "lemonhd.club" = 40
 "pt.xingyungept.org" = 40
+"cspt.top" = 40
 
 [rss.seed_size_more_GB]                             #只R体积大于此值的种子，两者控制范围，默认为20GB，2者大小填错会自动适应，上下限都填0则无限制#本模块修改不用重启
 "audiences.me" = 0
@@ -78,6 +80,7 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "www.qingwapt.com" = 0
 "lemonhd.club" = 0
 "pt.xingyungept.org" = 0
+"cspt.top" = 0
 
 [rss.is_used]                                       #站点RSS开关，启用修改为true，关闭修改为false#本模块修改不用重启
 "audiences.me" = false
@@ -98,6 +101,7 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "www.qingwapt.com" = false
 "lemonhd.club" = false
 "pt.xingyungept.org" = false
+"cspt.top" = false
 
 [rss.url]                                           #站点RSS的链接，请从网站RSS生成链接里找passkey后，自行补充在最后的等于号后，注意前面的别动。如果想要自己生成RSS链接则必须选中【[标题格式]中的[类型]和[大小]】#本模块修改不用重启
 "audiences.me" = "https://audiences.me/torrentrss.php?rows=50&tags=gf&icat=1&isize=1&torrent_type=1&linktype=dl&rsskey="
@@ -118,6 +122,7 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "www.qingwapt.com" = "https://www.qingwapt.com/torrentrss.php?rows=50&tag3=1&tag1=2&icat=1&isize=1&linktype=dl&passkey="
 "lemonhd.club" = "https://lemonhd.club/torrentrss.php?rows=50&icat=1&isize=1&tag_gf=1&movie=1&linktype=dl&passkey="
 "pt.xingyungept.org" = "https://pt.xingyungept.org/torrentrss.php?rows=50&icat=1&isize=1&tea8=1&linktype=dl&passkey="
+"cspt.top" = "https://cspt.top/torrentrss.php?rows=50&tea18=1&tea19=1&icat=1&isize=1&linktype=dl&passkey="
 "model_site" = ["rss_url1", "rss_url2"]
 
 [qiyeweixin]                                        #配置企业微信推送信息相关内容
