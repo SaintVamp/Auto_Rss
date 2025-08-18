@@ -28,8 +28,6 @@ descr_loacl = ""                                    #RSS本地存储豆瓣简介
 "ourbits.club" = ""
 "sunnypt.top" = ""
 "ptlgs.org" = ""
-"www.qingwapt.com" = ""
-"lemonhd.club" = ""
 "pt.xingyungept.org" = ""
 "cspt.top" = ""
 "www.hdkyl.in" = ""
@@ -57,8 +55,6 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "ourbits.club" = 40
 "sunnypt.top" = 40
 "ptlgs.org" = 40
-"www.qingwapt.com" = 40
-"lemonhd.club" = 40
 "pt.xingyungept.org" = 40
 "cspt.top" = 40
 "www.hdkyl.in" = 40
@@ -79,8 +75,6 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "ourbits.club" = 0
 "sunnypt.top" = 0
 "ptlgs.org" = 0
-"www.qingwapt.com" = 0
-"lemonhd.club" = 0
 "pt.xingyungept.org" = 0
 "cspt.top" = 0
 "www.hdkyl.in" = 0
@@ -101,8 +95,6 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "ourbits.club" = false
 "sunnypt.top" = false
 "ptlgs.org" = false
-"www.qingwapt.com" = false
-"lemonhd.club" = false
 "pt.xingyungept.org" = false
 "cspt.top" = false
 "www.hdkyl.in" = false
@@ -123,8 +115,6 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "ourbits.club" = "https://ourbits.club/torrentrss.php?inclbookmarked=0&https=1&icat=1&isize=1&rows=10&search_mode=0&linktype=dl&passkey="
 "sunnypt.top" = "https://sunnypt.top/torrentrss.php?rows=50&icat=1&isize=1&linktype=dl&passkey="
 "ptlgs.org" = "https://ptlgs.org/torrentrss.php?rows=50&tea14=1&tea15=1&tea17=1&icat=1&isize=1&paid=0&linktype=dl&passkey="
-"www.qingwapt.com" = "https://www.qingwapt.com/torrentrss.php?rows=50&tag3=1&tag1=2&icat=1&isize=1&linktype=dl&passkey="
-"lemonhd.club" = "https://lemonhd.club/torrentrss.php?rows=50&icat=1&isize=1&tag_gf=1&movie=1&linktype=dl&passkey="
 "pt.xingyungept.org" = "https://pt.xingyungept.org/torrentrss.php?rows=50&icat=1&isize=1&tea8=1&linktype=dl&passkey="
 "cspt.top" = "https://cspt.top/torrentrss.php?rows=50&tea18=1&tea19=1&icat=1&isize=1&linktype=dl&passkey="
 "www.hdkyl.in" = "https://www.hdkyl.in/torrentrss.php?rows=50&tea12=1&tea7=1&tea6=1&icat=1&isize=1&linktype=dl&passkey="
