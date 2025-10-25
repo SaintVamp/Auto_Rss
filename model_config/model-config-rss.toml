@@ -20,7 +20,7 @@ descr_loacl = ""                                    #RSS本地存储豆瓣简介
 "hdhome.org" = ""
 "www.hddolby.com" = ""
 "hdvideo.one" = ""
-"pterclub.com" = ""
+"pterclub.net" = ""
 "pt.keepfrds.com" = ""
 "zmpt.cc" = ""
 "reelflix.xyz" = ""
@@ -48,7 +48,7 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "www.hddolby.com" = 40
 "hdvideo.one" = 40
 "pt.keepfrds.com" = 40
-"pterclub.com" = 40
+"pterclub.net" = 40
 "zmpt.cc" = 40
 "ubits.club" = 40
 "reelflix.xyz" = 40
@@ -69,7 +69,7 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "www.hddolby.com" = 0
 "hdvideo.one" = 0
 "pt.keepfrds.com" = 0
-"pterclub.com" = 0
+"pterclub.net" = 0
 "zmpt.cc" = 0
 "ubits.club" = 0
 "reelflix.xyz" = 0
@@ -90,7 +90,7 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "www.hddolby.com" = false
 "hdvideo.one" = false
 "pt.keepfrds.com" = false
-"pterclub.com" = false
+"pterclub.net" = false
 "zmpt.cc" = false
 "ubits.club" = false
 "reelflix.xyz" = false
@@ -111,7 +111,7 @@ quick_scan = false                                  #RSS时快速轮循所有种
 "www.hddolby.com" = "https://www.hddolby.com/torrentrss.php?rows=50&exp=180&tea1=1&tea12=1&icat=1&isize=1&linktype=dl&passkey="
 "hdvideo.one" = "https://hdvideo.one/torrentrss.php?rows=50&tea1=1&icat=1&isize=1&linktype=dl&passkey="
 "pt.keepfrds.com" = "https://pt.keepfrds.com/torrentrss.php?rows=50&tea6=1&tea3=1&tea10=1&tea14=1&tea12=1&tea8=1&tea9=1&icat=1&ismalldescr=1&isize=1&linktype=dl&passkey="
-"pterclub.com" = "https://pterclub.com/torrentrss.php?rows=50&tag_exclusive=no&tag_internal=yes&icat=1&isize=1&linktype=dl&passkey="
+"pterclub.net" = "https://pterclub.net/torrentrss.php?rows=50&tag_exclusive=no&tag_internal=yes&icat=1&isize=1&linktype=dl&passkey="
 "zmpt.cc" = "https://zmpt.cc/torrentrss.php?rows=50&cat422=1&cat417=1&cat427=1&cat401=1&cat402=1&cat403=1&tea7=1&icat=1&isize=1&paid=0&linktype=dl&passkey="
 "ubits.club" = "https://ubits.club/torrentrss.php?rows=50&icat=1&isize=1&linktype=dl&passkey="
 "reelflix.xyz" = "https://reelflix.xyz/rss/"
